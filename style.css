@@ -79,7 +79,7 @@ section {
   margin: 20px 0;
 }
 
-.primary__button{
+.button__primary {
   background-image: linear-gradient(
     to right,
     #ff512f 0%,
@@ -87,7 +87,7 @@ section {
     #ff512f 100%
   );
 }
-.primary__button {
+.button__primary {
   margin: 10px;
   padding: 0.5rem 1rem;
   text-align: center;
@@ -101,7 +101,7 @@ section {
   display: block;
 }
 
-.primary__button:hover {
+.button__primary:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
@@ -487,7 +487,7 @@ footer > ul > li {
   .navbar {
     padding: 0 3rem;
   }
-  .primary__button {
+  .button__primary {
     padding: 1rem 2rem;
     font-size: 1rem;
   }
@@ -533,4 +533,5 @@ footer > ul > li {
     height: 180px;
   }
 }
+
   
